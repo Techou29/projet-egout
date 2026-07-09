@@ -1,0 +1,85 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-family: myfontdeux;
+  font-size: 30px;
+  color: #af1818;
+}
+
+p {
+  font-family: myfonttrois;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card-inspi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 450px;
+  width: 66%;
+  margin-left: 18%;
+}
+
+.card-inspi-pair {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 450px;
+  width: 66%;
+  margin-left: 18%;
+}
+
+.card-second {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 50px;
+  width: 50%;
+}
+
+.img-artiste {
+  width: 200px;
+}
+
+.logo-position {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.logo-inspi {
+  width: 50px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  .card-inspi {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 10px;
+    height: auto;
+    line-height: 1.8;
+  }
+
+  .card-inspi-pair {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 10px;
+    line-height: 1.8;
+    height: auto;
+  }
+}
